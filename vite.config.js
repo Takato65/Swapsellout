@@ -2,7 +2,7 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-    base: '/Swapsellout/',
+    base: '/.proxy/Swapsellout/',
   server: {
     allowedHosts: ['.trycloudflare.com',".github.io"]
   }
