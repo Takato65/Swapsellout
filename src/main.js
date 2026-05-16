@@ -24,9 +24,9 @@ var buildUrl = "/.proxy/Build";
 var loaderUrl = buildUrl + "/Web.loader.js";
 var config = {
   arguments: [],
-  dataUrl: buildUrl + "/Web.data.br",
-  frameworkUrl: buildUrl + "/Web.framework.js.br",
-  codeUrl: buildUrl + "/Web.wasm.br",
+  dataUrl: buildUrl + "/Web.data.unityweb",
+  frameworkUrl: buildUrl + "/Web.framework.js.unityweb",
+  codeUrl: buildUrl + "/Web.wasm.unityweb",
   streamingAssetsUrl: "StreamingAssets",
   companyName: "DefaultCompany",
   productName: "TOJAM",
